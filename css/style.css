@@ -1,0 +1,285 @@
+footer{
+   background-color: #e1b55dc2;
+}
+.info__container{
+   max-width: 810px;
+   margin: 0 auto;
+   padding-left: 10px;
+}
+.title {
+   background-image: linear-gradient(90deg, rgba(220, 226, 134, 0.945) 0%, rgb(202, 158, 24) 23%, rgba(237, 111, 53, 0.872) 77%);
+}
+.title__container {
+   max-width: 810px;
+   margin: 0 auto;
+   text-align: center;
+}
+.title__name {
+   padding: 20px 0;
+   font-size: 40px;
+   background-color: #95ab33;
+}
+.header-title{
+   font-family: "Lato", sans-serif;
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   align-items: center;
+   color: #1E212C;
+   margin-bottom: 98px;
+}
+.header-img{
+   max-width: 100%;
+}
+.main-one{
+   margin-top: 60px;
+}
+.one-text-one, .coment{
+   font-family: 'Lato', sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   color: #1E212C;
+}
+.one-text-one, .one-text-two{
+   margin-bottom: 24px;
+}
+.one-text-two, .one-text-three, .main-two{
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.6;
+   color: #424551;
+}
+.main-coment{
+   margin: 48px 0;
+   display: inline-block;
+}
+.coment{
+   padding-left: 58px;
+   background-image: url(../img/braces.jpg);
+   background-position: left top;
+   background-repeat: no-repeat;
+}
+.main-two{
+   margin-bottom: 60px;
+}
+.two-item{
+   margin: 24px 0 24px 24px;
+}
+li{
+   list-style-image: url("../img/check.png");
+   padding-left: 16px;
+}
+.background{
+   font-size: 30px;
+}
+.background__container{
+   max-width: 1260px;
+   margin: 0 auto;
+}
+.background-color{
+   display: flex;
+   margin: 15px;
+}
+.background__color{
+   background-color:aqua;
+}
+.background__rgb{
+   background-color: rgb(110, 15, 15);
+}
+.background__rgba{
+   background-color: rgba(59, 235, 68, 0.7);
+}
+.background-image, .background-repeat, .background-position, .background-attachment, .background-size, .background-multiple, .background-origion, .background-clip{
+   margin: 15px;
+}
+.background__image{
+   height: 400px;
+   background-image: url(../img/nostalgi.jpg);
+}
+.background__linear{
+   height: 250px;
+   background-image: linear-gradient(90deg, rgba(139,134,226,0.9447129193474265) 0%, rgba(128,128,190,1) 23%, rgba(245,255,0,0.8718837876947654) 77%);
+}
+.background__radial{
+   height: 250px;
+   background-image: radial-gradient(circle, rgba(139,134,226,0.9447129193474265) 0%, rgba(190,189,128,1) 13%, rgba(139,140,172,1) 33%, rgba(173,123,123,1) 46%, rgba(91,194,125,1) 64%, rgba(245,255,0,0.8718837876947654) 77%);
+}
+.background__no-repeat{
+   border: 1px solid #000;
+   height: 300px;
+   background: url(../img/pica.jfif) no-repeat;
+}
+.background__repeat-x{
+   border: 1px solid #000;
+   height: 300px;
+   background-image: url(../img/pica.jfif);
+   background-repeat: repeat-x;
+}
+.background__repeat-y{
+   border: 1px solid #000;
+   height: 300px;
+   background: url(../img/pica.jfif) repeat-y;
+}
+.background__space{
+   border: 1px solid #000;
+   height: 400px;
+   background: url(../img/pica.jfif) space;
+   margin-bottom: 10px;
+}
+.background__round{
+   border: 1px solid #000;
+   height: 400px; 
+   background: url(../img/pica.jfif) round;
+}
+.background__default {
+   border: 1px solid #000;
+   height: 300px;
+   background-image: url('../img/nostalgi.jpg');
+   background-repeat: no-repeat;
+   background-position: 0 0;
+}
+.background__center {
+   border: 1px solid #000;
+   height: 300px;
+   background: url('../img/nostalgi.jpg') center no-repeat;
+}
+.background__left {
+   border: 1px solid #000;
+   height: 300px;
+   background: url('../img/nostalgi.jpg') 0 50% no-repeat
+}
+.background__corner {
+   border: 1px solid #000;
+   height: 300px;
+   background-image: url('../img/nostalgi.jpg');
+   background-repeat: no-repeat;
+   background-position: 100% 100%;
+}
+.background__position {
+   border: 1px solid #000;
+   height: 300px;
+   background: url('../img/nostalgi.jpg') 100px 50px no-repeat
+}
+
+.attachment__default {
+   height: 500px;
+   background-image: url('../img/circle.jpg');
+   background-repeat: no-repeat;
+   background-position: 0 0;
+   background-attachment: scroll;
+}
+.attachment__fixed {
+   height: 800px;
+   background: url('../img/circle.jpg') 0 0 no-repeat fixed;
+}
+.attachment__local {
+   height: 400px;
+   color: burlywood;
+   background: url('../img/circle.jpg') 0 0 no-repeat local;
+   overflow: auto;
+}
+.size__default-one {
+   background-image: url('../img/circle.jpg');
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-size: auto auto;
+}
+.size__width {
+   height: 300px;
+   background-image: url('../img/circle.jpg');
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-size: 100% auto;
+}
+.size__height {
+   height: 500px;
+   background: url('../img/circle.jpg') 0 0/auto 100% no-repeat;
+}
+.size__stretch {
+   height: 300px;
+   background: url('../img/circle.jpg') 0 0/100% 100% no-repeat;
+}
+.size__contain {
+   height: 300px;
+   background: url('../img/circle.jpg') 0 0/contain no-repeat;
+}
+.size__cover {
+   height: 300px;
+   background: url('../img/circle.jpg') 0 0/cover no-repeat;
+}
+.size__dimensions {
+   height: 300px;
+   background: url('../img/circle.jpg') 0 0/350px 200px no-repeat;
+}
+.multiple__img-one {
+   height: 200px;
+   background-color: aquamarine;
+   background-image: url(../img/pica.jfif);
+   background-repeat: no-repeat;
+}
+.multiple__img-two {
+   height: 300px;
+   background: url(../img/pica.jfif) right no-repeat, url(../img/circle.jpg) 50%/cover no-repeat;
+}
+.multiple__img-three {
+   height: 300px;
+   background-image: url(../img/nostalgi.jpg), url(../img/pica.jfif), url(../img/circle.jpg);
+   background-repeat: no-repeat;
+   background-position: top, left, 50%;
+   background-size: 150px, auto 50px, cover;
+}
+.multiple__img-threeq {
+   height: 300px;
+   background: url(../img/nostalgi.jpg) 0 0/auto auto no-repeat, radial-gradient(circle, rgba(139,134,226,0.9447129193474265) 0%, rgba(190,189,128,1) 13%, rgba(139,140,172,1) 33%, rgba(173,123,123,1) 46%, rgba(91,194,125,1) 64%, rgba(245,255,0,0.8718837876947654) 77%), url(../img/pica.jfif) right bottom/auto 100px repeat-y;
+}
+.multiple__img-four {
+   height: 400px;
+   background: url(../img/nostalgi.jpg) top/250px no-repeat, url(../img/pica.jfif) 0 0/ 100px repeat-x, url(../img/test.jpg) 30% 20%/300px no-repeat, url(../img/circle.jpg) 50%/cover no-repeat;
+}
+.origion__padding {
+   border: 10px solid #fc0;
+   padding: 20px;
+   height: 200px;
+   background: url(../img/nostalgi.jpg) no-repeat;
+   background-origin: padding-box;
+}
+.origion__border {
+   border: 10px solid #fc0;
+   padding: 20px;
+   height: 200px;
+   background: url(../img/nostalgi.jpg) no-repeat;
+   background-origin: border-box;
+}
+.origion__content {
+   border: 10px solid #fc0;
+   padding: 20px;
+   height: 200px;
+   background: url(../img/nostalgi.jpg) no-repeat;
+   background-origin: content-box;
+}
+.clip__padding {
+   background: #5f392f url(../img/nostalgi.jpg); 
+   border: 10px dotted yellow; 
+   background-clip: padding-box;   
+   padding: 10px; 
+   color: #fff;  
+   height: 200px; 
+}
+.clip__border {
+   background: #5f392f url(../img/nostalgi.jpg);
+   border: 10px dotted red;    
+   background-clip: border-box;  
+   padding: 10px; 
+   color: #fff;   
+   height: 200px; 
+}
+.clip__content {
+   background: #5f392f url(../img/nostalgi.jpg); 
+   border: 10px dotted green;   
+   background-clip: content-box;
+   padding: 10px; 
+   color: #fff;  
+   height: 200px; 
+}
